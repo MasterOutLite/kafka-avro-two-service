@@ -1,0 +1,44 @@
+{
+  "type": "record",
+  "name": "Address",
+  "namespace": "com.example.producer",
+
+  "fields": [
+    {
+      "name": "addressId",
+      "type": "string"
+    },
+    {
+      "name": "addressLine1",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "addressLine2",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "addressLine3",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    },
+    {
+      "name": "addressPostcode",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    }
+  ]
+}
